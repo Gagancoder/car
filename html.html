@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <title>BMW DIsplay</title>
+    </head>
+    <body>
+        <a-scene background="color:red">
+            <a-entity position="0 5 25" >
+                <a-camera></a-camera>
+            </a-entity>
+                <!--Sky-->
+                <a-sky src="https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1">
+
+                </a-sky>
+   
+                <a-assets timeout="10000">
+
+                    <a-asset-item id="BMW" src="./cwMqS1FSuaN.glb"></a-asset-item>
+              
+               
+              
+                  </a-assets>
+           
+          
+            <a-entity ><a-cylinder rotation="0 90 0" position="0 0 -5" src="https://media.istockphoto.com/photos/the-black-and-silver-are-light-gray-with-white-the-gradient-is-the-picture-id1215814221?k=20&m=1215814221&s=612x612&w=0&h=ZCIYwnSdaeJ_zH3JORg6nDMExaiY3i3XKvCXaciQWx8=" wide="10" hight="10" length="10" radius="25">
+
+            </a-cylinder></a-entity>
+            <a-entity position="13 0.4 0" rotation="0 55 0" scale="0.1 0.1 0.1" gltf-model="#BMW">
+            </a-entity>
+        </a-scene>
+    </body>
+</html>
